@@ -114,7 +114,7 @@ const MetricasCocina = () => {
                 </section>
 
                 <InfoBox type="tip">
-                    **Análisis de Hoy**: Consulte los totales del día para ver cuántas órdenes se han procesado hasta el momento y compararlas con el promedio histórico.
+                    <strong>Análisis de Hoy</strong>: Consulte los totales del día para ver cuántas órdenes se han procesado hasta el momento y compararlas con el promedio histórico.
                 </InfoBox>
             </div>
 

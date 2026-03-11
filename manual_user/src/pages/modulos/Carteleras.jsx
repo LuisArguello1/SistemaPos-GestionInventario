@@ -132,7 +132,7 @@ const Carteleras = () => {
                                 El sistema permite reordenar categorías y productos mediante arrastrar y soltar (Drag & Drop), sincronizando instantáneamente el orden en todas las pantallas activas.
                             </p>
                             <InfoBox type="note">
-                                **Actualización en Tiempo Real**: Cualquier cambio en `is_active` o en el orden de visualización se refleja de inmediato en las TVs conectadas.
+                                <strong>Actualización en Tiempo Real</strong>: Cualquier cambio en `is_active` o en el orden de visualización se refleja de inmediato en las TVs conectadas.
                             </InfoBox>
                         </div>
                     </div>

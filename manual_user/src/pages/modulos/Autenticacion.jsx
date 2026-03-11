@@ -20,7 +20,7 @@ const Autenticacion = () => {
                     Autenticación y <span className="text-primary-500">Seguridad</span>
                 </h1>
                 <p className="text-lg text-secondary-600 max-w-3xl leading-relaxed">
-                    Nuestra solución de **Sistema POS y Gestión de Inventario** utiliza un ecosistema de autenticación robusto basado en estándares modernos de la industria para garantizar la integridad de los datos.
+                    Nuestra solución de <strong>Sistema POS y Gestión de Inventario</strong> utiliza un ecosistema de autenticación robusto basado en estándares modernos de la industria para garantizar la integridad de los datos.
                 </p>
             </header>
 
@@ -48,7 +48,7 @@ const Autenticacion = () => {
                 {/* Sección de Seguridad Técnica */}
                 <InfoBox type="tip">
                     <div className="font-bold mb-1 uppercase tracking-wider text-[11px]">Seguridad de Tokens</div>
-                    Los tokens JWT (**Access** y **Refresh**) no se exponen al código JavaScript. Se almacenan como cookies **HttpOnly** y **SameSite=Lax**, protegiendo el sistema contra ataques XSS y CSRF.
+                    Los tokens JWT (<strong>Access</strong> y <strong>Refresh</strong>) no se exponen al código JavaScript. Se almacenan como cookies <strong>HttpOnly</strong> y <strong>SameSite=Lax</strong>, protegiendo el sistema contra ataques XSS y CSRF.
                 </InfoBox>
 
                 {/* Sección 2: OTP */}
@@ -107,7 +107,7 @@ const Autenticacion = () => {
                 </section>
 
                 <InfoBox type="warning">
-                    El cierre de sesión (**Logout**) elimina ambas cookies del navegador e invalida la rotación de tokens en el servidor inmediatamente.
+                    El cierre de sesión (<strong>Logout</strong>) elimina ambas cookies del navegador e invalida la rotación de tokens en el servidor inmediatamente.
                 </InfoBox>
             </div>
 

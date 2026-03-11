@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Sidebar from '../components/Sidebar';
 import Header from '../components/Header';
+import BotStock from '../components/BotStock';
 
 const DocsLayouts = ({ children }) => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -16,7 +17,7 @@ const DocsLayouts = ({ children }) => {
             <div className="flex flex-col flex-1 min-w-0 overflow-hidden bg-white">
                 <Header toggleSidebar={() => toggleSidebar(true)} />
 
-                <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 sm:p-6 lg:p-8 scroll-smooth bg-white">
+                <main className="flex-1 overflow-y-auto overflow-x-hidden p-4 sm:p-6 lg:p-8 scroll-smooth bg-white relative">
                     <div className="max-w-4xl mx-auto py-10 min-h-full flex flex-col">
                         <div className="flex-1">
                             {children}
@@ -29,6 +30,9 @@ const DocsLayouts = ({ children }) => {
                         </footer>
                     </div>
                 </main>
+                
+                {/* BotStock IA Chatbot */}
+                <BotStock />
             </div>
 
             {/* Overlay para móvil */}

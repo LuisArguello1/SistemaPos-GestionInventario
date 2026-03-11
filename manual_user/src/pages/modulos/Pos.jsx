@@ -25,7 +25,7 @@ const Pos = () => {
                     Punto de Venta <span className="text-primary-500">(POS)</span>
                 </h1>
                 <p className="text-lg text-secondary-600 max-w-3xl leading-relaxed">
-                    Personalice la experiencia de venta con nuestra terminal inteligente. Diseñada exclusivamente para **gestión interna**, permitiendo un control total de comandas, combos y créditos en una interfaz fluida.
+                    Personalice la experiencia de venta con nuestra terminal inteligente. Diseñada exclusivamente para <strong>gestión interna</strong>, permitiendo un control total de comandas, combos y créditos en una interfaz fluida.
                 </p>
             </header>
 
@@ -58,19 +58,19 @@ const Pos = () => {
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-primary-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                                         </svg>
-                                        <span>**Combos y Recetas**: El sistema descuenta automáticamente los componentes individuales del stock al vender un combo.</span>
+                                        <span><strong>Combos y Recetas</strong>: El sistema descuenta automáticamente los componentes individuales del stock al vender un combo.</span>
                                     </li>
                                     <li className="flex gap-3 items-start">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-primary-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                         </svg>
-                                        <span>**Descuentos por Venta**: Aplique descuentos porcentuales al total de la comanda para fidelizar a sus clientes.</span>
+                                        <span><strong>Descuentos por Venta</strong>: Aplique descuentas porcentuales al total de la comanda para fidelizar a sus clientes.</span>
                                     </li>
                                     <li className="flex gap-3 items-start">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-primary-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
                                         </svg>
-                                        <span>**IVA de Control Interno**: Cálculo automático de impuestos basado en la configuración de cada producto para fines de arqueo técnico.</span>
+                                        <span><strong>IVA de Control Interno</strong>: Cálculo automático de impuestos basado en la configuración de cada producto para fines de arqueo técnico.</span>
                                     </li>
                                 </ul>
                             </div>
@@ -95,13 +95,13 @@ const Pos = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div className="p-6 bg-white rounded-3xl border border-secondary-100 shadow-sm">
                             <h4 className="font-bold text-secondary-900 mb-2 font-display">Gestión de Clientes</h4>
-                            <p className="text-sm text-secondary-600 mb-6 leading-relaxed">Venda como **Consumidor Final** para rapidez, o identifique un cliente para ventas a crédito. Puede crear clientes nuevos sin salir de la comanda.</p>
+                            <p className="text-sm text-secondary-600 mb-6 leading-relaxed">Venda como <strong>Consumidor Final</strong> para rapidez, o identifique un cliente para ventas a crédito. Puede crear clientes nuevos sin salir de la comanda.</p>
                             <img src={imgCrearCliente} alt="Crear Cliente POS" className="rounded-xl border border-secondary-50 shadow-md cursor-zoom-in" onClick={() => openLightbox(imgCrearCliente)} />
                         </div>
 
                         <div className="space-y-6">
                             <InfoBox type="important">
-                                **Requisito de Caja**: Es imposible finalizar una venta si no existe una **Sesión de Caja Abierta**. El sistema protege la integridad del dinero.
+                                <strong>Requisito de Caja</strong>: Es imposible finalizar una venta si no existe una <strong>Sesión de Caja Abierta</strong>. El sistema protege la integridad del dinero.
                             </InfoBox>
 
                             <div className="grid grid-cols-2 gap-4">
@@ -137,15 +137,15 @@ const Pos = () => {
                             <ul className="space-y-4">
                                 <li className="flex gap-4 p-4 bg-secondary-50 rounded-2xl border border-secondary-100">
                                     <div className="w-8 h-8 rounded-full bg-primary-500 flex items-center justify-center text-white shrink-0 font-bold text-xs">1</div>
-                                    <p className="text-sm text-secondary-700 font-medium">**Orden de Cocina**: Genera automáticamente el pedido en los terminales de preparación si contiene platos.</p>
+                                    <p className="text-sm text-secondary-700 font-medium"><strong>Orden de Cocina</strong>: Genera automáticamente el pedido en los terminales de preparación si contiene platos.</p>
                                 </li>
                                 <li className="flex gap-4 p-4 bg-secondary-50 rounded-2xl border border-secondary-100">
                                     <div className="w-8 h-8 rounded-full bg-primary-500 flex items-center justify-center text-white shrink-0 font-bold text-xs">2</div>
-                                    <p className="text-sm text-secondary-700 font-medium">**Descarga de Stock**: Rebaja existencias reales incluyendo ingredientes de combos y registra costo histórico.</p>
+                                    <p className="text-sm text-secondary-700 font-medium"><strong>Descarga de Stock</strong>: Rebaja existencias reales incluyendo ingredientes de combos y registra costo histórico.</p>
                                 </li>
                                 <li className="flex gap-4 p-4 bg-secondary-50 rounded-2xl border border-secondary-100">
                                     <div className="w-8 h-8 rounded-full bg-primary-500 flex items-center justify-center text-white shrink-0 font-bold text-xs">3</div>
-                                    <p className="text-sm text-secondary-700 font-medium">**Facturación**: Habilita el modal de impresión para generar diversos formatos de comprobante.</p>
+                                    <p className="text-sm text-secondary-700 font-medium"><strong>Facturación</strong>: Habilita el modal de impresión para generar diversos formatos de comprobante.</p>
                                 </li>
                             </ul>
                             <img src={imgFacturaOpciones} alt="Opciones Impresión" className="rounded-2xl border border-secondary-100 shadow-xl cursor-zoom-in" onClick={() => openLightbox(imgFacturaOpciones)} />
@@ -178,7 +178,7 @@ const Pos = () => {
                 </section>
 
                 <InfoBox type="tip">
-                    **Trazabilidad**: Todas las ventas quedan asociadas permanentemente al usuario que las registró y a la caja activa para posteriores auditorías o arqueos de fin de turno.
+                    <strong>Trazabilidad</strong>: Todas las ventas quedan asociadas permanentemente al usuario que las registró y a la caja activa para posteriores auditorías o arqueos de fin de turno.
                 </InfoBox>
             </div>
 

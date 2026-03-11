@@ -50,7 +50,7 @@ const Proveedores = () => {
                             Eliminación Inteligente
                         </h3>
                         <p className="text-sm text-secondary-600 leading-relaxed">
-                            El sistema protege la integridad histórica. Si un proveedor tiene compras asociadas, se **desactivará** (soft-delete) para preservar los reportes. Si no tiene historial, podrá eliminarse permanentemente.
+                            El sistema protege la integridad histórica. Si un proveedor tiene compras asociadas, se <strong>desactivará</strong> (soft-delete) para preservar los reportes. Si no tiene historial, podrá eliminarse permanentemente.
                         </p>
                     </div>
 
@@ -91,13 +91,13 @@ const Proveedores = () => {
                 </section>
 
                 <InfoBox type="tip">
-                    **Recomendación**: Revise periódicamente la pestaña de **Compras y Pagos** de cada proveedor para asegurar que sus cuentas por pagar estén al día.
+                    <strong>Recomendación</strong>: Revise periódicamente la pestaña de <strong>Compras y Pagos</strong> de cada proveedor para asegurar que sus cuentas por pagar estén al día.
                 </InfoBox>
 
                 <section className="bg-secondary-50 p-6 rounded-2xl border border-secondary-100 border-dashed">
                     <h3 className="text-sm font-bold text-secondary-900 mb-2 uppercase tracking-tight">Búsqueda y Filtros</h3>
                     <p className="text-sm text-secondary-600 leading-relaxed">
-                        Localice proveedores al instante buscando por **Razón Social, Documento, Email o Teléfono**. Utilice el filtro de estado para visualizar únicamente los proveedores en activo.
+                        Localice proveedores al instante buscando por <strong>Razón Social, Documento, Email o Teléfono</strong>. Utilice el filtro de estado para visualizar únicamente los proveedores en activo.
                     </p>
                 </section>
             </div>

@@ -67,7 +67,7 @@ const Auditoria = () => {
                     </div>
 
                     <InfoBox type="info">
-                        **Protección Automática**: El sistema mantiene un historial de backups con validación de integridad. Se recomienda descargar las copias más importantes a un disco externo.
+                        <strong>Protección Automática</strong>: El sistema mantiene un historial de backups con validación de integridad. Se recomienda descargar las copias más importantes a un disco externo.
                     </InfoBox>
 
                     <StepCard
@@ -106,7 +106,7 @@ const Auditoria = () => {
                 </section>
 
                 <InfoBox type="warning">
-                    **Restricción de Acceso**: La visualización de auditoría y la creación de backups/túneles requiere privilegios de **Administrador**.
+                    <strong>Restricción de Acceso</strong>: La visualización de auditoría y la creación de backups/túneles requiere privilegios de <strong>Administrador</strong>.
                 </InfoBox>
             </div>
 

@@ -88,9 +88,9 @@ const Inventario = () => {
                             Reglas de Stock
                         </h3>
                         <ul className="space-y-3 text-sm text-rose-800">
-                            <li className="flex gap-2"><span>•</span> **Saldos Negativos**: No se permiten en productos físicos para mantener la consistencia contable.</li>
-                            <li className="flex gap-2"><span>•</span> **Cocina/Recetas**: Los componentes se descuentan automáticamente según la configuración lógica.</li>
-                            <li className="flex gap-2"><span>•</span> **Alertas**: Notificaciones visuales inmediatas cuando el stock llega a niveles críticos.</li>
+                            <li className="flex gap-2"><span>•</span> <strong>Saldos Negativos</strong>: No se permiten en productos físicos para mantener la consistencia contable.</li>
+                            <li className="flex gap-2"><span>•</span> <strong>Cocina/Recetas</strong>: Los componentes se descuentan automáticamente según la configuración lógica.</li>
+                            <li className="flex gap-2"><span>•</span> <strong>Alertas</strong>: Notificaciones visuales inmediatas cuando el stock llega a niveles críticos.</li>
                         </ul>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ const Inventario = () => {
 
                     <div className="space-y-8">
                         <InfoBox type="tip">
-                            **Valoración PMP**: El sistema utiliza el método de **Promedio Ponderado** para el cálculo automático del costo y valor total del inventario.
+                            <strong>Valoración PMP</strong>: El sistema utiliza el método de <strong>Promedio Ponderado</strong> para el cálculo automático del costo y valor total del inventario.
                         </InfoBox>
 
                         <StepCard
@@ -143,7 +143,7 @@ const Inventario = () => {
                 </section>
 
                 <InfoBox type="info">
-                    **Recomendación**: Revise las alertas de bajo stock periódicamente y exporte el Kardex para sus cierres mensuales y auditorías internas.
+                    <strong>Recomendación</strong>: Revise las alertas de bajo stock periódicamente y exporte el Kardex para sus cierres mensuales y auditorías internas.
                 </InfoBox>
             </div>
 

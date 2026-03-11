@@ -51,12 +51,12 @@ const Clientes = () => {
                         <h4 className="font-bold text-secondary-900 mb-4 font-display">Gestión de Fichas</h4>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <ul className="space-y-3 text-sm text-secondary-600">
-                                <li className="flex gap-2">🟢 **Registro**: Cree perfiles con validación única de documento.</li>
-                                <li className="flex gap-2">🟡 **Edición**: Actualice datos de contacto y direcciones de entrega.</li>
-                                <li className="flex gap-2">🔴 **Soft-Delete**: Desactive clientes sin perder su historial de transacciones.</li>
+                                <li className="flex gap-2">🟢 <strong>Registro</strong>: Cree perfiles con validación única de documento.</li>
+                                <li className="flex gap-2">🟡 <strong>Edición</strong>: Actualice datos de contacto y direcciones de entrega.</li>
+                                <li className="flex gap-2">🔴 <strong>Soft-Delete</strong>: Desactive clientes sin perder su historial de transacciones.</li>
                             </ul>
                             <InfoBox type="info">
-                                **Optimización**: Las estadísticas del listado se cachean brevemente para garantizar una navegación fluida incluso con miles de registros.
+                                <strong>Optimización</strong>: Las estadísticas del listado se cachean brevemente para garantizar una navegación fluida incluso con miles de registros.
                             </InfoBox>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ const Clientes = () => {
                                 />
                             </div>
                             <InfoBox type="warning">
-                                **Seguridad**: La generación de reportes financieros está restringida a usuarios con roles administrativos para proteger la privacidad de los datos.
+                                <strong>Seguridad</strong>: La generación de reportes financieros está restringida a usuarios con roles administrativos para proteger la privacidad de los datos.
                             </InfoBox>
                         </div>
 
@@ -141,7 +141,7 @@ const Clientes = () => {
                 </section>
 
                 <InfoBox type="info">
-                    **Integración POS**: Al realizar una venta a crédito, el sistema valida automáticamente que el cliente esté registrado y activo antes de generar la deuda.
+                    <strong>Integración POS</strong>: Al realizar una venta a crédito, el sistema valida automáticamente que el cliente esté registrado y activo antes de generar la deuda.
                 </InfoBox>
             </div>
 

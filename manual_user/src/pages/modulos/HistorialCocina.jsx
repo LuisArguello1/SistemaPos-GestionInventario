@@ -81,7 +81,7 @@ const HistorialCocina = () => {
 
                         <div className="space-y-6">
                             <InfoBox type="info">
-                                **Resolución de Incidencias**: Útil para verificar notas especiales del cliente o componentes de recetas que se sirvieron en órdenes específicas.
+                                <strong>Resolución de Incidencias</strong>: Útil para verificar notas especiales del cliente o componentes de recetas que se sirvieron en órdenes específicas.
                             </InfoBox>
                             <div className="bg-secondary-50 p-6 rounded-3xl border border-secondary-100">
                                 <h4 className="font-bold text-secondary-900 mb-4 font-display text-sm">Información Disponible</h4>
@@ -90,25 +90,25 @@ const HistorialCocina = () => {
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-primary-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                         </svg>
-                                        <span>**Tiempos Reales**: Diferencia exacta entre "Aceptado" y "Terminado".</span>
+                                        <span><strong>Tiempos Reales</strong>: Diferencia exacta entre "Aceptado" y "Terminado".</span>
                                     </li>
                                     <li className="flex gap-3 items-start">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-primary-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                                         </svg>
-                                        <span>**Responsables**: Usuarios que procesaron cada fase de la orden.</span>
+                                        <span><strong>Responsables</strong>: Usuarios que procesaron cada fase de la orden.</span>
                                     </li>
                                     <li className="flex gap-3 items-start">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-primary-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
                                         </svg>
-                                        <span>**Instrucciones**: Notas de cocina asociadas a la venta original.</span>
+                                        <span><strong>Instrucciones</strong>: Notas de cocina asociadas a la venta original.</span>
                                     </li>
                                     <li className="flex gap-3 items-start">
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-primary-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 11m8 4V4M4 11v10l8 4" />
                                         </svg>
-                                        <span>**Contenido**: Variantes y complementos de cada ítem preparado.</span>
+                                        <span><strong>Contenido</strong>: Variantes y complementos de cada ítem preparado.</span>
                                     </li>
                                 </ul>
                             </div>
@@ -118,10 +118,10 @@ const HistorialCocina = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <InfoBox type="tip">
-                        **Mejora Continua**: Use estos datos para identificar cuellos de botella en horarios pico analizando los tiempos de preparación promedio por plato.
+                        <strong>Mejora Continua</strong>: Use estos datos para identificar cuellos de botella en horarios pico analizando los tiempos de preparación promedio por plato.
                     </InfoBox>
                     <InfoBox type="important">
-                        **Exclusividad**: El historial solo incluye órdenes que han finalizado su ciclo completo (Listo o Entregado).
+                        <strong>Exclusividad</strong>: El historial solo incluye órdenes que han finalizado su ciclo completo (Listo o Entregado).
                     </InfoBox>
                 </div>
             </div>

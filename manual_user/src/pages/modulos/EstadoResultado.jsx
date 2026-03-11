@@ -93,7 +93,7 @@ const EstadoResultado = () => {
                                         Visualice la rentabilidad porcentual para comparar eficiencias operativas independientemente del volumen de venta.
                                     </p>
                                     <InfoBox type="tip">
-                                        **Acción Práctica**: Si el margen es bajo, revise sus proveedores o ajuste sus precios de venta.
+                                        <strong>Acción Práctica</strong>: Si el margen es bajo, revise sus proveedores o ajuste sus precios de venta.
                                     </InfoBox>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@ const EstadoResultado = () => {
                 </section>
 
                 <InfoBox type="info">
-                    **Diagnóstico IA**: El sistema integra recomendaciones automáticas basadas en sus gastos acumulados, sugiriendo reducciones en categorías específicas si detecta anomalías.
+                    <strong>Diagnóstico IA</strong>: El sistema integra recomendaciones automáticas basadas en sus gastos acumulados, sugiriendo reducciones en categorías específicas si detecta anomalías.
                 </InfoBox>
             </div>
 

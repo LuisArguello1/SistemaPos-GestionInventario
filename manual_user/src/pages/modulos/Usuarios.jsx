@@ -58,7 +58,7 @@ const Usuarios = () => {
                                 <h4 className="font-bold text-secondary-900">Configuración de Seguridad</h4>
                                 <span className="text-xs font-bold px-2 py-1 bg-secondary-100 rounded text-secondary-500 uppercase tracking-widest">Paso 2</span>
                             </div>
-                            <p className="text-xs text-secondary-600 mb-4">Defina la contraseña inicial y asigne el **Rol Operativo** acorde a las responsabilidades del empleado.</p>
+                            <p className="text-xs text-secondary-600 mb-4">Defina la contraseña inicial y asigne el <strong>Rol Operativo</strong> acorde a las responsabilidades del empleado.</p>
                             <img src={imgForm2} alt="Formulario 2" className="rounded-lg border border-secondary-50 w-full" />
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const Usuarios = () => {
 
                     <div className="space-y-6">
                         <InfoBox type="info">
-                            **Niveles de Seguridad**: Los roles determinan qué módulos son visibles y qué acciones (ver, editar, eliminar) puede realizar cada usuario.
+                            <strong>Niveles de Seguridad</strong>: Los roles determinan qué módulos son visibles y qué acciones (ver, editar, eliminar) puede realizar cada usuario.
                         </InfoBox>
 
                         <StepCard
@@ -117,11 +117,11 @@ const Usuarios = () => {
                             Recuperación de Acceso
                         </h3>
                         <p className="text-sm text-secondary-600 leading-relaxed">
-                            Si olvida su clave, el sistema permite solicitar un **Código OTP** vía correo electrónico registrado para crear una nueva contraseña de forma segura.
+                            Si olvida su clave, el sistema permite solicitar un <strong>Código OTP</strong> vía correo electrónico registrado para crear una nueva contraseña de forma segura.
                         </p>
                         <div className="mt-8">
                              <InfoBox type="warning">
-                                **Restricción de Borrado**: Solo administradores pueden eliminar cuentas. Se recomienda desactivarlas para no perder la auditoría histórica.
+                                <strong>Restricción de Borrado</strong>: Solo administradores pueden eliminar cuentas. Se recomienda desactivarlas para no perder la auditoría histórica.
                              </InfoBox>
                         </div>
                     </section>

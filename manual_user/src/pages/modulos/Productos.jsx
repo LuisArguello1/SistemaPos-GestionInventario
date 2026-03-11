@@ -48,7 +48,7 @@ const Productos = () => {
                 </section>
 
                 <InfoBox type="tip">
-                    **Optimización**: El sistema convierte automáticamente las imágenes a formato WebP para garantizar una carga rápida en todos los dispositivos.
+                    <strong>Optimización</strong>: El sistema convierte automáticamente las imágenes a formato WebP para garantizar una carga rápida en todos los dispositivos.
                 </InfoBox>
 
                 {/* Catálogo y Variantes */}
@@ -98,7 +98,7 @@ const Productos = () => {
                 <section className="bg-secondary-50 p-6 rounded-2xl border border-secondary-100 border-dashed">
                     <h3 className="text-sm font-bold text-secondary-900 mb-2 uppercase tracking-tight">Filtros y Visualización</h3>
                     <p className="text-sm text-secondary-600 leading-relaxed">
-                        El sistema permite una búsqueda rápida por **Nombre o SKU**, filtrar por **Categoría específica** y alternar la visualización de **Productos Inactivos**. Además, el usuario puede cambiar entre modo **Cuadrícula (Grid)** o **Lista** según su preferencia operativa.
+                        El sistema permite una búsqueda rápida por <strong>Nombre o SKU</strong>, filtrar por <strong>Categoría específica</strong> y alternar la visualización de <strong>Productos Inactivos</strong>. Además, el usuario puede cambiar entre modo <strong>Cuadrícula (Grid)</strong> o <strong>Lista</strong> según su preferencia operativa.
                     </p>
                 </section>
 
@@ -159,7 +159,7 @@ const Productos = () => {
                 </section>
 
                 <InfoBox type="warning">
-                    **Control de Stock**: Las ventas descuentan automáticamente el stock de la variante. Para combos o recetas, se descuenta de los componentes base vinculados.
+                    <strong>Control de Stock</strong>: Las ventas descuentan automáticamente el stock de la variante. Para combos o recetas, se descuenta de los componentes base vinculados.
                 </InfoBox>
             </div>
 

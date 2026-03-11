@@ -81,7 +81,7 @@ const ReporteVentas = () => {
                     </div>
 
                     <InfoBox type="info">
-                        **Análisis Automático**: El sistema interpreta sus cifras diarias y genera un diagnóstico de salud financiera al instante (ej.: "Excelente liquidez... 90.1%").
+                        <strong>Análisis Automático</strong>: El sistema interpreta sus cifras diarias y genera un diagnóstico de salud financiera al instante (ej.: "Excelente liquidez... 90.1%").
                     </InfoBox>
 
                     <div className="bg-secondary-900 rounded-3xl p-8 text-white relative overflow-hidden">
@@ -99,11 +99,11 @@ const ReporteVentas = () => {
                             <div className="w-full md:w-64 space-y-4">
                                 <div className="p-4 bg-secondary-800 rounded-xl border border-secondary-700">
                                     <h5 className="text-xs text-secondary-500 font-bold mb-2 uppercase tracking-widest">Top Rentabilidad</h5>
-                                    <p className="text-xs text-secondary-300">Sección que destaca el **Máximo Generador** y el producto con mayor margen.</p>
+                                    <p className="text-xs text-secondary-300">Sección que destaca el <strong>Máximo Generador</strong> y el producto con mayor margen.</p>
                                 </div>
                                 <div className="p-4 bg-secondary-800 rounded-xl border border-secondary-700">
                                     <h5 className="text-xs text-secondary-500 font-bold mb-2 uppercase tracking-widest">Refrescar Datos</h5>
-                                    <p className="text-xs text-secondary-300">Utilice el botón **Actualizar** para sincronizar las métricas al instante.</p>
+                                    <p className="text-xs text-secondary-300">Utilice el botón <strong>Actualizar</strong> para sincronizar las métricas al instante.</p>
                                 </div>
                             </div>
                         </div>

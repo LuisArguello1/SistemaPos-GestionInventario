@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { createBrowserRouter, Navigate, useLocation } from 'react-router-dom';
+import { createHashRouter, Navigate, useLocation } from 'react-router-dom';
 import DocsLayouts from '../layouts/DocsLayouts';
 import Dashboard from '../pages/modulos/Dashboard';
 import Introduccion from '../pages/introduccion';
@@ -45,7 +45,7 @@ const withLayout = (Component) => (
     </ScrollToTop>
 );
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
     {
         path: '/',
         element: <Navigate to="/docs/bienvenida" replace />,

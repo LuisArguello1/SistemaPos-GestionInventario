@@ -100,7 +100,7 @@ const Compras = () => {
                 </section>
 
                 <InfoBox type="info">
-                    **Numeración Automática**: Cada compra recibe un folio único con formato `PC-YYYYMMDD-XXXX` para facilitar la trazabilidad y auditoría.
+                    <strong>Numeración Automática</strong>: Cada compra recibe un folio único con formato `PC-YYYYMMDD-XXXX` para facilitar la trazabilidad y auditoría.
                 </InfoBox>
 
                 {/* Detalle y Recepción */}
@@ -140,10 +140,10 @@ const Compras = () => {
                                 Pagos a Proveedores
                             </h3>
                             <p className="text-sm text-secondary-600 leading-relaxed">
-                                Registre pagos totales o parciales (Efectivo, Transferencia, Tarjeta). Los pagos en efectivo se vinculan directamente a la **Caja Activa**. El estado cambia a *Páid* solo cuando el saldo llega a cero.
+                                Registre pagos totales o parciales (Efectivo, Transferencia, Tarjeta). Los pagos en efectivo se vinculan directamente a la <strong>Caja Activa</strong>. El estado cambia a *Páid* solo cuando el saldo llega a cero.
                             </p>
                             <InfoBox type="warning">
-                                Las órdenes solo pueden cancelarse si aún **no han sido recibidas**. Una vez en stock, la operación es inmutable por seguridad contable.
+                                Las órdenes solo pueden cancelarse si aún <strong>no han sido recibidas</strong>. Una vez en stock, la operación es inmutable por seguridad contable.
                             </InfoBox>
                         </div>
 
@@ -188,7 +188,7 @@ const Compras = () => {
                 </section>
 
                 <InfoBox type="tip">
-                    **Recomendación**: Reciba físicamente la mercadería antes de registrar pagos en el sistema para asegurar la coincidencia entre el stock digital y el real.
+                    <strong>Recomendación</strong>: Reciba físicamente la mercadería antes de registrar pagos en el sistema para asegurar la coincidencia entre el stock digital y el real.
                 </InfoBox>
             </div>
 

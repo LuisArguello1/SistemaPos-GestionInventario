@@ -51,7 +51,7 @@ const Gastos = () => {
                             <img src={imgCrearGasto} alt="Crear Gasto" className="rounded-xl border border-secondary-50 shadow-md group-hover:scale-[1.01] transition-transform duration-300" />
                         </div>
                         <InfoBox type="info">
-                            **Respaldo Digital**: El sistema permite anexar archivos de facturas (PDF o imágenes) que pueden ser descargados o consultados directamente desde la ficha del gasto.
+                            <strong>Respaldo Digital</strong>: El sistema permite anexar archivos de facturas (PDF o imágenes) que pueden ser descargados o consultados directamente desde la ficha del gasto.
                         </InfoBox>
                     </div>
                 </section>
@@ -83,7 +83,7 @@ const Gastos = () => {
                                 <img src={imgCrearCat} alt="Crear Categoría" className="rounded-xl border border-white shadow-xl group-hover:scale-[1.01] transition-transform duration-300" />
                             </div>
                             <InfoBox type="warning">
-                                **Protección de Datos**: Una categoría no puede ser eliminada si ya tiene gastos asociados, esto garantiza que su historial financiero permanezca consistente.
+                                <strong>Protección de Datos</strong>: Una categoría no puede ser eliminada si ya tiene gastos asociados, esto garantiza que su historial financiero permanezca consistente.
                             </InfoBox>
                         </div>
                     </div>
@@ -91,10 +91,10 @@ const Gastos = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <InfoBox type="tip">
-                        **Análisis en Tiempo Real**: Use el filtro por fechas para obtener un resumen del total gastado en un periodo específico y el desglose por área.
+                        <strong>Análisis en Tiempo Real</strong>: Use el filtro por fechas para obtener un resumen del total gastado en un periodo específico y el desglose por área.
                     </InfoBox>
                     <InfoBox type="important">
-                        **Trazabilidad**: Todas las acciones (crear, editar o borrar gastos) quedan vinculadas al usuario responsable y disponibles en el log de auditoría global.
+                        <strong>Trazabilidad</strong>: Todas las acciones (crear, editar o borrar gastos) quedan vinculadas al usuario responsable y disponibles en el log de auditoría global.
                     </InfoBox>
                 </div>
             </div>

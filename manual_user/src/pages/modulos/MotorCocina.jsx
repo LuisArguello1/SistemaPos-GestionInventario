@@ -77,7 +77,7 @@ const MotorCocina = () => {
                                 <div className="flex-1">
                                     <h4 className="font-bold mb-4 font-display">Aceptar e Iniciar</h4>
                                     <p className="text-sm text-secondary-400 leading-relaxed mb-6">
-                                        Al pulsar **Aceptar**, la orden pasa a "En Preparación", registrando automáticamente al usuario y la hora de inicio. Esto evita duplicidad de trabajo.
+                                        Al pulsar <strong>Aceptar</strong>, la orden pasa a "En Preparación", registrando automáticamente al usuario y la hora de inicio. Esto evita duplicidad de trabajo.
                                     </p>
                                 </div>
                                 <div className="flex-1 space-y-4">
@@ -96,7 +96,7 @@ const MotorCocina = () => {
                 </section>
 
                 <InfoBox type="important">
-                    **Trazabilidad de Tiempos**: Cada cambio de estado se registra con fecha, hora y usuario, permitiendo analizar cuánto tiempo tarda cada plato en promedio.
+                    <strong>Trazabilidad de Tiempos</strong>: Cada cambio de estado se registra con fecha, hora y usuario, permitiendo analizar cuánto tiempo tarda cada plato en promedio.
                 </InfoBox>
             </div>
 

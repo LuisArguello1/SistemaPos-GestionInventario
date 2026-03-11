@@ -1,3 +1,4 @@
+import ReactMarkdown from 'react-markdown';
 import React from 'react';
 
 const InfoBox = ({ type = 'info', children }) => {
@@ -49,8 +50,8 @@ const InfoBox = ({ type = 'info', children }) => {
     return (
         <div className={`p-5 rounded-2xl border-l-4 ${currentStyle.bg} ${currentStyle.border} mb-8 flex gap-4 transition-all duration-300`}>
             <div className="flex-shrink-0 mt-1">{currentStyle.icon}</div>
-            <div className={`text-sm leading-relaxed ${currentStyle.text}`}>
-                {children}
+            <div className={`text-sm leading-relaxed ${currentStyle.text} prose-strong:text-inherit prose-strong:font-bold`}>
+                {typeof children === 'string' ? <ReactMarkdown>{children}</ReactMarkdown> : children}
             </div>
         </div>
     );

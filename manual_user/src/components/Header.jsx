@@ -7,8 +7,26 @@ const Header = ({ toggleSidebar }) => {
     const [searchQuery, setSearchQuery] = useState('');
     const [searchResults, setSearchResults] = useState([]);
     const [showResults, setShowResults] = useState(false);
+    const [showHint, setShowHint] = useState(false);
     const location = useLocation();
     const navigate = useNavigate();
+
+    useEffect(() => {
+        const hasSeenHint = localStorage.getItem('sidebar-hint-seen');
+        if (!hasSeenHint) {
+            // Mostrar después de un pequeño delay para que no sea brusco
+            const timer = setTimeout(() => setShowHint(true), 1500);
+            return () => clearTimeout(timer);
+        }
+    }, []);
+
+    const handleToggle = () => {
+        toggleSidebar();
+        if (showHint) {
+            setShowHint(false);
+            localStorage.setItem('sidebar-hint-seen', 'true');
+        }
+    };
 
     // Preparar datos para búsqueda
     const searchableData = menuDocs.flatMap(section =>
@@ -41,17 +59,36 @@ const Header = ({ toggleSidebar }) => {
     };
 
     return (
-        <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-secondary-100 flex-shrink-0">
+        <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-secondary-100 flex-shrink-0 font-sans">
             <div className="flex items-center justify-between h-20 px-6 sm:px-8 max-w-7xl mx-auto w-full">
                 <div className="flex items-center gap-6">
-                    <button
-                        onClick={toggleSidebar}
-                        className="p-2.5 -ml-2 text-secondary-500 rounded-xl hover:bg-secondary-50 lg:hidden transition-colors"
-                    >
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
+                    <div className="relative">
+                        <button
+                            onClick={handleToggle}
+                            className={`p-2.5 -ml-2 text-secondary-500 rounded-xl hover:bg-secondary-50 lg:hidden transition-all duration-500 ${showHint ? 'ring-2 ring-primary-500/50 bg-primary-50 shadow-[0_0_15px_rgba(var(--primary-500-rgb),0.2)]' : ''}`}
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" className={`h-6 w-6 transition-transform duration-500 ${showHint ? 'scale-110 text-primary-500' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </button>
+
+                        {/* Hint / Tutorial para móvil */}
+                        {showHint && (
+                            <div className="absolute left-0 top-full mt-3 lg:hidden pointer-events-none z-50">
+                                <div className="animate-in fade-in zoom-in duration-500 relative bg-secondary-900 px-4 py-2.5 rounded-2xl border border-secondary-800 shadow-[0_10px_40px_rgba(0,0,0,0.3)]">
+                                     <span className="text-[11px] font-bold text-white whitespace-nowrap flex items-center gap-2.5">
+                                        <span className="relative flex h-2 w-2">
+                                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-400 opacity-75"></span>
+                                            <span className="relative inline-flex rounded-full h-2 w-2 bg-primary-500"></span>
+                                        </span>
+                                        Explora los módulos aquí
+                                    </span>
+                                    {/* Triángulo indicador superior */}
+                                    <div className="absolute -top-1.5 left-4 border-x-[8px] border-x-transparent border-b-[8px] border-b-secondary-900" />
+                                </div>
+                            </div>
+                        )}
+                    </div>
 
                     <div className="hidden lg:flex items-center text-[13px] font-medium text-secondary-400">
                         <span className="hover:text-primary-500 cursor-default transition-colors">Documentación</span>

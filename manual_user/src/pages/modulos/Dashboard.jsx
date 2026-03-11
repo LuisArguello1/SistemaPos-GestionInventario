@@ -133,7 +133,7 @@ const Dashboard = () => {
                             </h4>
                             <ul className="space-y-2">
                                 <li className="text-xs text-red-700 flex justify-between border-b border-red-200 pb-2">
-                                    <span>**Información por producto:**</span>
+                                    <span><strong>Información por producto:</strong></span>
                                     <span className="font-bold">Actual / Mínimo</span>
                                 </li>
                                 <li className="text-[11px] text-red-600 py-1">Detalle inmediato por categoría para reposición rápida antes de que el artículo quede fuera de servicio.</li>
@@ -143,7 +143,7 @@ const Dashboard = () => {
                 </section>
 
                 <InfoBox type="tip">
-                    **Gestión Inteligente**: Utilice el Dashboard al inicio de su turno para prever la demanda basada en la tendencia de los últimos días y verificar qué productos necesitan compra inmediata.
+                    <strong>Gestión Inteligente</strong>: Utilice el Dashboard al inicio de su turno para prever la demanda basada en la tendencia de los últimos días y verificar qué productos necesitan compra inmediata.
                 </InfoBox>
             </div>
 

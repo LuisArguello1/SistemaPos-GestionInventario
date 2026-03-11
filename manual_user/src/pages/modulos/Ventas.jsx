@@ -92,7 +92,7 @@ const Ventas = () => {
                             </li>
                         </ul>
                         <InfoBox type="info">
-                            **Control de Inventario**: Al confirmar la venta, el sistema descuenta automáticamente el stock real, incluyendo componentes de combos y recetas.
+                            <strong>Control de Inventario</strong>: Al confirmar la venta, el sistema descuenta automáticamente el stock real, incluyendo componentes de combos y recetas.
                         </InfoBox>
                     </div>
                 </section>
@@ -109,7 +109,7 @@ const Ventas = () => {
                                 Proceso de Anulación
                             </h3>
                             <p className="text-sm text-secondary-400 leading-relaxed mb-6">
-                                Acción restringida a administradores. La anulación es atómica: **restaura stock**, genera **egreso en caja** (si hubo devolución) y limpia saldos pendientes.
+                                Acción restringida a administradores. La anulación es atómica: <strong>restaura stock</strong>, genera <strong>egreso en caja</strong> (si hubo devolución) y limpia saldos pendientes.
                             </p>
                             <div className="p-4 bg-secondary-800 rounded-xl border border-secondary-700">
                                 <span className="text-xs font-bold text-rose-400 block mb-1 uppercase tracking-widest">Atención</span>
@@ -124,7 +124,7 @@ const Ventas = () => {
                 </section>
 
                 <InfoBox type="warning">
-                    **Trazabilidad Garantizada**: Cada venta (creación, edición o anulación) queda vinculada al usuario, fecha e IP para auditoría posterior.
+                    <strong>Trazabilidad Garantizada</strong>: Cada venta (creación, edición o anulación) queda vinculada al usuario, fecha e IP para auditoría posterior.
                 </InfoBox>
             </div>
 

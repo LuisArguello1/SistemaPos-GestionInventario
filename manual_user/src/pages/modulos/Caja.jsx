@@ -83,7 +83,7 @@ const Caja = () => {
                                     <img src={imgArqueo1} alt="Arqueo Paso 1" className="rounded-xl border border-secondary-50 shadow-lg group-hover:scale-[1.01] transition-transform duration-300" />
                                 </div>
                                 <InfoBox type="tip">
-                                    **Conciliación**: El sistema agrupa la recaudación por usuario, facilitando la auditoría de quién vendió y qué cajero recaudó el efectivo.
+                                    <strong>Conciliación</strong>: El sistema agrupa la recaudación por usuario, facilitando la auditoría de quién vendió y qué cajero recaudó el efectivo.
                                 </InfoBox>
                             </div>
 
@@ -93,7 +93,7 @@ const Caja = () => {
                                         <h4 className="font-bold text-secondary-900 font-display text-lg">Paso 2: Conteo Físico</h4>
                                         <span className="px-3 py-1 bg-accent-100 text-accent-700 rounded-full text-xs font-bold uppercase tracking-widest">Acción</span>
                                     </div>
-                                    <p className="text-sm text-secondary-600 leading-relaxed mb-4">Ingrese el monto real contado físicamente. El sistema calculará automáticamente la **diferencia o descuadre** contra el saldo esperado.</p>
+                                    <p className="text-sm text-secondary-600 leading-relaxed mb-4">Ingrese el monto real contado físicamente. El sistema calculará automáticamente la <strong>diferencia o descuadre</strong> contra el saldo esperado.</p>
                                     <img src={imgArqueo2} alt="Arqueo Paso 2" className="rounded-xl border border-secondary-50 shadow-lg group-hover:scale-[1.01] transition-transform duration-300" />
                                 </div>
                                 <div className="p-6 bg-secondary-900 rounded-3xl text-white shadow-2xl overflow-hidden relative group" onClick={() => openLightbox(imgImpresion)}>
@@ -120,10 +120,10 @@ const Caja = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <InfoBox type="info">
-                        **Integridad Dinámica**: El sistema impide egresos manuales que superen el saldo disponible en caja en ese momento para evitar saldos negativos ilógicos.
+                        <strong>Integridad Dinámica</strong>: El sistema impide egresos manuales que superen el saldo disponible en caja en ese momento para evitar saldos negativos ilógicos.
                     </InfoBox>
                     <InfoBox type="warning">
-                        **Permisos Críticos**: Solo usuarios con permisos de administración pueden abrir caja o registrar movimientos manuales de ingresos/egresos.
+                        <strong>Permisos Críticos</strong>: Solo usuarios con permisos de administración pueden abrir caja o registrar movimientos manuales de ingresos/egresos.
                     </InfoBox>
                 </div>
             </div>

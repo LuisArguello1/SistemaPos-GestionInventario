@@ -9,7 +9,7 @@ const Instalacion = () => {
                     Puesta en Marcha y <span className="text-primary-500">Conectividad</span>
                 </h1>
                 <p className="text-lg text-secondary-600 max-w-3xl leading-relaxed">
-                    Descubra cómo el **Sistema POS e Inventario** se integra en su negocio. Esta guía explica el funcionamiento de su red interna para garantizar una operación fluida y sin interrupciones.
+                    Descubra cómo el <strong>Sistema POS e Inventario</strong> se integra en su negocio. Esta guía explica el funcionamiento de su red interna para garantizar una operación fluida y sin interrupciones.
                 </p>
             </header>
 
@@ -28,7 +28,7 @@ const Instalacion = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                         <div className="space-y-4">
                             <p className="text-secondary-600 leading-relaxed text-sm">
-                                El sistema funciona con un **Servidor Central** (la computadora principal de su local). Este equipo actúa como el "cerebro" donde se guarda cada venta, ingrediente y movimiento de caja.
+                                El sistema funciona con un <strong>Servidor Central</strong> (la computadora principal de su local). Este equipo actúa como el "cerebro" donde se guarda cada venta, ingrediente y movimiento de caja.
                             </p>
                             <p className="text-secondary-600 leading-relaxed text-sm">
                                 Una vez configurado, el servidor se encarga de distribuir la información a todas las tablets y celulares de sus meseros de forma instantánea.
@@ -61,7 +61,7 @@ const Instalacion = () => {
                         <div className="max-w-3xl mx-auto text-center space-y-6">
                             <h3 className="text-xl font-bold text-emerald-900">¿Qué es la Intranet?</h3>
                             <p className="text-emerald-800/80 leading-relaxed text-sm">
-                                Es su propia red de Wi-Fi privada. A diferencia de otros sistemas que dependen de internet, nuestro software trabaja "en casa". Esto significa que **si el internet se cae, su negocio sigue vendiendo sin problemas**.
+                                Es su propia red de Wi-Fi privada. A diferencia de otros sistemas que dependen de internet, nuestro software trabaja "en casa". Esto significa que <strong>si el internet se cae, su negocio sigue vendiendo sin problemas</strong>.
                             </p>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                                 <div className="bg-white p-4 rounded-2xl shadow-sm border border-emerald-100 flex items-center gap-3">
@@ -107,7 +107,7 @@ const Instalacion = () => {
                             <div className="md:w-1/2 space-y-5">
                                 <h4 className="text-xl font-black text-secondary-900 leading-tight">Operación de Fondo</h4>
                                 <p className="text-secondary-600 text-sm leading-relaxed">
-                                    El sistema se configura como un "Servicio de Windows". Esto significa que se enciende solo al prender la computadora, **sin que usted tenga que abrir ninguna ventana o programa manualmente**.
+                                    El sistema se configura como un "Servicio de Windows". Esto significa que se enciende solo al prender la computadora, <strong>sin que usted tenga que abrir ninguna ventana o programa manualmente</strong>.
                                 </p>
                                 <ul className="space-y-2">
                                     <li className="flex items-center gap-2 text-[11px] font-bold text-secondary-700">
@@ -161,7 +161,7 @@ const Instalacion = () => {
                                 </svg>
                             </div>
                             <h5 className="font-bold text-secondary-900 mb-2">Paso 2: Acceso Directo</h5>
-                            <p className="text-[11px] text-secondary-500 mb-4">Ingrese la dirección IP de su servidor o simplemente **escanee el código QR** desde la pantalla principal para entrar al instante sin escribir nada.</p>
+                            <p className="text-[11px] text-secondary-500 mb-4">Ingrese la dirección IP de su servidor o simplemente <strong>escanee el código QR</strong> desde la pantalla principal para entrar al instante sin escribir nada.</p>
                             <div className="flex items-center gap-2 text-[10px] font-bold text-indigo-600 bg-indigo-50 px-3 py-1.5 rounded-xl border border-indigo-100 shadow-sm">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
@@ -183,7 +183,7 @@ const Instalacion = () => {
             </div>
 
             <InfoBox type="tip">
-                **Acceso Directo**: Puede crear un ícono en la pantalla de inicio de su celular para abrir el sistema como si fuera una App instalada.
+                <strong>Acceso Directo</strong>: Puede crear un ícono en la pantalla de inicio de su celular para abrir el sistema como si fuera una App instalada.
             </InfoBox>
         </div>
     );

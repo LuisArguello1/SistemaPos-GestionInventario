@@ -73,7 +73,7 @@ const Deudas = () => {
                                 onImageClick={openLightbox}
                             />
                             <InfoBox type="important">
-                                **Requisito de Caja**: Para registrar cualquier abono es obligatorio tener una **sesión de caja abierta**, ya que el dinero ingresa directamente al flujo del turno activo.
+                                <strong>Requisito de Caja</strong>: Para registrar cualquier abono es obligatorio tener una <strong>sesión de caja abierta</strong>, ya que el dinero ingresa directamente al flujo del turno activo.
                             </InfoBox>
                         </div>
 
@@ -82,15 +82,15 @@ const Deudas = () => {
                             <ul className="space-y-4 text-sm text-secondary-600">
                                 <li className="flex gap-3">
                                     <div className="mt-1 w-5 h-5 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-600 shrink-0 text-[10px] font-bold">1</div>
-                                    <p>**Validación Atómica**: El sistema impide errores de digitación al bloquear pagos mayores a la deuda real.</p>
+                                    <p><strong>Validación Atómica</strong>: El sistema impide errores de digitación al bloquear pagos mayores a la deuda real.</p>
                                 </li>
                                 <li className="flex gap-3">
                                     <div className="mt-1 w-5 h-5 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-600 shrink-0 text-[10px] font-bold">2</div>
-                                    <p>**Cierre Automático**: Cuando el saldo llega a cero, la venta se marca como **PAGADA** en todos los reportes financieros.</p>
+                                    <p><strong>Cierre Automático</strong>: Cuando el saldo llega a cero, la venta se marca como <strong>PAGADA</strong> en todos los reportes financieros.</p>
                                 </li>
                                 <li className="flex gap-3">
                                     <div className="mt-1 w-5 h-5 bg-emerald-100 rounded-full flex items-center justify-center text-emerald-600 shrink-0 text-[10px] font-bold">3</div>
-                                    <p>**Trazabilidad**: Cada abono registra el usuario responsable, la fecha exacta y la IP de conexión.</p>
+                                    <p><strong>Trazabilidad</strong>: Cada abono registra el usuario responsable, la fecha exacta y la IP de conexión.</p>
                                 </li>
                             </ul>
                         </div>
@@ -140,7 +140,7 @@ const Deudas = () => {
                 </section>
 
                 <InfoBox type="info">
-                    **Documentación Adjunta**: Desde el módulo de deudas puede generar el **PDF del Estado de Cuenta** consolidado para entregar al cliente.
+                    <strong>Documentación Adjunta</strong>: Desde el módulo de deudas puede generar el <strong>PDF del Estado de Cuenta</strong> consolidado para entregar al cliente.
                 </InfoBox>
             </div>
 
